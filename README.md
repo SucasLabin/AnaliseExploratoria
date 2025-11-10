@@ -1,22 +1,47 @@
-# AnaliseExploratoria
+# 📘 Medidas de Tendência Central e de Dispersão
 
-## 🔹 Distribuição de Idades
+A seguir estão as definições genéricas das principais medidas estatísticas utilizadas nesta análise.
+Suponha que foram observados os valores x₁, x₂, ..., xₙ.
 
-O histograma da variável idade mostra uma distribuição relativamente uniforme entre 18 e 90 anos, com maior concentração entre 40 e 60 anos. Isso indica que a maioria dos indivíduos da amostra está em idade adulta.
+## 🔹 Média
 
-## 🔹 Tempo Preso
+A média aritmética é obtida somando todos os valores e dividindo pelo número total de observações:
 
-O boxplot do tempo preso mostra que o tempo médio de encarceramento gira em torno de 60 meses, com poucos outliers acima de 80 meses. A dispersão é moderada, indicando certa homogeneidade no tempo de prisão entre os indivíduos.
+x̄ = (x₁ + x₂ + ... + xₙ) / n
 
-## 🔹 Score de Periculosidade por Escolaridade
+Representa o valor médio dos dados.
 
-O boxplot do score_periculosidade por escolaridade revela que:
-Indivíduos com nível 1 e 2 de escolaridade apresentam valores médios de periculosidade semelhantes.
-Já o grupo com nível 3 apresenta uma leve redução no score médio.
-A variabilidade dentro dos grupos é relativamente próxima, sem grandes discrepâncias.
-Isso pode indicar uma tendência de menor score de periculosidade conforme aumenta o nível de escolaridade.
+## 🔹 Mediana
 
-## 🔹 Proporção de Reincidência
+A mediana é o valor central dos dados quando eles são colocados em ordem crescente.
 
-O gráfico de barras empilhadas da variável reincidente mostra que aproximadamente 81% dos indivíduos não são reincidentes, enquanto 19% apresentam reincidência.
-Os percentuais foram representados de forma relativa, permitindo visualizar claramente o equilíbrio entre os dois grupos.
+Se n for ímpar, é o valor que ocupa a posição (n + 1) / 2.
+
+Se n for par, é a média dos dois valores centrais.
+
+Ela divide os dados em duas metades iguais e é menos sensível a valores extremos.
+
+## 🔹 Variância
+
+A variância mede o quanto os valores se afastam da média.
+É calculada pela média dos quadrados dos desvios em relação à média:
+
+s² = Σ(xᵢ − x̄)² / (n − 1)
+
+Quanto maior a variância, mais dispersos estão os dados.
+
+## 🔹 Desvio Padrão
+
+O desvio padrão é a raiz quadrada da variância:
+
+s = √[Σ(xᵢ − x̄)² / (n − 1)]
+
+Ele tem a mesma unidade da variável original e indica o quanto, em média, os valores se afastam da média.
+
+## 🔹 Amplitude
+
+A amplitude é a diferença entre o maior e o menor valor observado:
+
+A = xₘáx − xₘín
+
+Mostra o intervalo total em que os dados estão distribuídos.

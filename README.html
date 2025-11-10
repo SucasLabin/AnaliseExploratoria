@@ -352,40 +352,45 @@ display: none;
 </div>
 
 
-<div id="analiseexploratoria" class="section level1">
-<h1>AnaliseExploratoria</h1>
-<div id="distribuição-de-idades" class="section level2">
-<h2>🔹 Distribuição de Idades</h2>
-<p>O histograma da variável idade mostra uma distribuição relativamente
-uniforme entre 18 e 90 anos, com maior concentração entre 40 e 60 anos.
-Isso indica que a maioria dos indivíduos da amostra está em idade
-adulta.</p>
+<div id="medidas-de-tendência-central-e-de-dispersão" class="section level1">
+<h1>📘 Medidas de Tendência Central e de Dispersão</h1>
+<p>A seguir estão as definições genéricas das principais medidas
+estatísticas utilizadas nesta análise. Suponha que foram observados os
+valores x₁, x₂, …, xₙ.</p>
+<div id="média" class="section level2">
+<h2>🔹 Média</h2>
+<p>A média aritmética é obtida somando todos os valores e dividindo pelo
+número total de observações:</p>
+<p>x̄ = (x₁ + x₂ + … + xₙ) / n</p>
+<p>Representa o valor médio dos dados.</p>
 </div>
-<div id="tempo-preso" class="section level2">
-<h2>🔹 Tempo Preso</h2>
-<p>O boxplot do tempo preso mostra que o tempo médio de encarceramento
-gira em torno de 60 meses, com poucos outliers acima de 80 meses. A
-dispersão é moderada, indicando certa homogeneidade no tempo de prisão
-entre os indivíduos.</p>
+<div id="mediana" class="section level2">
+<h2>🔹 Mediana</h2>
+<p>A mediana é o valor central dos dados quando eles são colocados em
+ordem crescente.</p>
+<p>Se n for ímpar, é o valor que ocupa a posição (n + 1) / 2.</p>
+<p>Se n for par, é a média dos dois valores centrais.</p>
+<p>Ela divide os dados em duas metades iguais e é menos sensível a
+valores extremos.</p>
 </div>
-<div id="score-de-periculosidade-por-escolaridade" class="section level2">
-<h2>🔹 Score de Periculosidade por Escolaridade</h2>
-<p>O boxplot do score_periculosidade por escolaridade revela que:</p>
-<p>Indivíduos com nível 1 e 2 de escolaridade apresentam valores médios
-de periculosidade semelhantes;</p>
-<p>Já o grupo com nível 3 apresenta uma leve redução no score médio;</p>
-<p>A variabilidade dentro dos grupos é relativamente próxima, sem
-grandes discrepâncias.</p>
-<p>Isso pode indicar uma tendência de menor score de periculosidade
-conforme aumenta o nível de escolaridade.</p>
+<div id="variância" class="section level2">
+<h2>🔹 Variância</h2>
+<p>A variância mede o quanto os valores se afastam da média. É calculada
+pela média dos quadrados dos desvios em relação à média:</p>
+<p>s² = Σ(xᵢ − x̄)² / (n − 1)</p>
+<p>Quanto maior a variância, mais dispersos estão os dados.</p>
 </div>
-<div id="proporção-de-reincidência" class="section level2">
-<h2>🔹 Proporção de Reincidência</h2>
-<p>O gráfico de barras empilhadas da variável reincidente mostra que
-aproximadamente 81% dos indivíduos não são reincidentes, enquanto 19%
-apresentam reincidência. Os percentuais foram representados de forma
-relativa, permitindo visualizar claramente o equilíbrio entre os dois
-grupos.</p>
+<div id="desvio-padrão" class="section level2">
+<h2>🔹 Desvio Padrão</h2>
+<p>O desvio padrão é a raiz quadrada da variância:</p>
+<p>s = √[Σ(xᵢ − x̄)² / (n − 1)]</p>
+<p>Ele tem a mesma unidade da variável original e indica o quanto, em
+média, os valores se afastam da média.</p>
+<p>##🔹 Amplitude</p>
+<p>A amplitude é a diferença entre o maior e o menor valor
+observado:</p>
+<p>A = xₘáx − xₘín</p>
+<p>Mostra o intervalo total em que os dados estão distribuídos.</p>
 </div>
 </div>
 
